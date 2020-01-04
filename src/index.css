@@ -2,7 +2,7 @@
     position: relative;
   }
 
-  :global .BouncingBallsDiv_container > .point {
+:global .BouncingBallsDiv_container > .point {
     position: absolute;
     border-radius: 50%;
   }
