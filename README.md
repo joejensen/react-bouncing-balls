@@ -1,8 +1,10 @@
 # react-bouncing-balls
-
 > React component to make google doodle style bouncing balls from an arbitrary image.  
 
 [![NPM](https://img.shields.io/npm/v/react-bouncing-balls.svg)](https://www.npmjs.com/package/react-bouncing-balls) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+## Example
+See demo available [here](https://www.joejensen.com/react-bouncing-balls/).
 
 ## Install
 
