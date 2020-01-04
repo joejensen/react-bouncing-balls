@@ -1,6 +1,6 @@
 # react-bouncing-balls
 
-> React component to make google doodle style bouncing balls from any image
+> React component to make google doodle style bouncing balls from an arbitrary image.  
 
 [![NPM](https://img.shields.io/npm/v/react-bouncing-balls.svg)](https://www.npmjs.com/package/react-bouncing-balls) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -12,15 +12,14 @@ npm install --save react-bouncing-balls
 
 ## Usage
 
-```tsx
-import * as React from 'react'
+```ts
+import React, { Component } from 'react'
+import {BouncingBallsDivComponent, BouncingBallsCanvasComponent} from 'react-bouncing-balls'
 
-import MyComponent from 'react-bouncing-balls'
-
-class Example extends React.Component {
+export default class App extends Component {
   render () {
     return (
-      <MyComponent />
+      <BouncingBallsDivComponent src="rainbowrose.jpg" cellSize="10"/>
     )
   }
 }
